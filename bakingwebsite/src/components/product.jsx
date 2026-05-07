@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
   
   const hoverImageStyle = {
     ...imageStyle,
-    transform: isHovered ? 'scale(1.1)' : 'scale(1)'
+    transform: isHovered ? 'scale(1.07)' : 'scale(1)'
   };
   
   const buttonStyle = {
