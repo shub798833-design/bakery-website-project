@@ -1,0 +1,34 @@
+@import "tailwindcss";
+#advertisment {
+   background-color: #ffe5b4;
+   border-radius: 5px;
+   height: 30px;
+   width: 100%;
+   margin: 10px;
+   position: relative;
+   overflow: hidden;
+   background-color: oklch(98% 0.016 73.684);
+  
+}
+
+#advertismentcontent {
+   font-size: 1.2em;
+   font-weight: bold;
+  
+   width: 100%;
+   animation-name: advertisementAnimation;
+   animation-duration: 7s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   position: absolute;
+   text-wrap: nowrap;
+   
+}
+@keyframes advertisementAnimation {
+   from {
+      transform: translateX(100vw);
+   }
+   to {
+      transform: translateX(-100%);
+   }
+}
